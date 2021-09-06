@@ -5,6 +5,7 @@
   "scripts": {
     "start": "parcel index.html --port 3000",
     "build": "parcel build index.html",
+    "deploy": "yarn version && rm -rf dist && yarn build && git push",
     "lint": "eslint .",
     "lint:fix": "yarn lint -- --fix"
   },
