@@ -2,10 +2,17 @@ import algoliasearch from 'algoliasearch';
 import instantsearch from 'instantsearch.js';
 
 // Instant Search Widgets
-import { hits, searchBox, configure } from 'instantsearch.js/es/widgets';
+import {
+  hits,
+  searchBox,
+  configure,
+  index,
+  poweredBy,
+} from 'instantsearch.js/es/widgets';
 
-// Autocomplete Template
+// Autocomplete Templates
 import autocompleteProductTemplate from '../templates/autocomplete-product';
+import autocompleteSuggestionTemplate from '../templates/autocomplete-suggestion';
 
 /**
  * @class Autocomplete
@@ -45,15 +52,37 @@ class Autocomplete {
    */
   _registerWidgets() {
     this._searchInstance.addWidgets([
+      // Index
       configure({
         hitsPerPage: 3,
       }),
       searchBox({
         container: '#searchbox',
+        placeholder: 'Search for products',
+        autofocus: true,
       }),
       hits({
         container: '#autocomplete-hits',
         templates: { item: autocompleteProductTemplate },
+      }),
+      // Query Suggestions Index
+      index({
+        indexName: process.env.QS_INDEX_NAME,
+      }).addWidgets([
+        configure({
+          hitsPerPage: 10,
+        }),
+        hits({
+          container: '#autocomplete-suggestions',
+          templates: {
+            item: autocompleteSuggestionTemplate,
+            empty: 'No suggestions',
+          },
+        }),
+      ]),
+      // Powered by Algolia banner
+      poweredBy({
+        container: '#autocomplete-footer',
       }),
     ]);
   }
