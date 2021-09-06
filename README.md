@@ -1,5 +1,6 @@
 # Algolia TAM Assignment
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa94b7fe-c0e4-4c02-a673-d9a11aea3c20/deploy-status)](https://app.netlify.com/sites/gabrielecanepa-algolia-assignment/deploys)
 [![Lint Workflow Status](https://github.com/gabrielecanepa/algolia-tam-assignment/workflows/Lint/badge.svg)](https://github.com/gabrielecanepa/algolia-tam-assignment/actions/workflows/lint.yml)
 
 This is the hiring assignment for the Technical Account Manager (TAM) Team at Algolia. It’s intended to mimic work you might do here, while giving us an understanding of your skills in:
