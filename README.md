@@ -1,5 +1,7 @@
 # Algolia TAM Assignment
 
+[![Lint Workflow Status](https://github.com/gabrielecanepa/algolia-tam-assignment/workflows/Lint/badge.svg)](https://github.com/gabrielecanepa/algolia-tam-assignment/actions/workflows/lint.yml)
+
 This is the hiring assignment for the Technical Account Manager (TAM) Team at Algolia. It’s intended to mimic work you might do here, while giving us an understanding of your skills in:
 
 * Problem Solving  
@@ -60,33 +62,33 @@ Open http://localhost:3000 to see your app.
   
 ### Technical Assignment
   
-| Did the candidate: | Yes | No |
-| :------------- | :------------- | :------------- |
-| Follow the instructions of the assignment? | | |
-| Write code that follows best-practices? | | |
-| Avoid over-engineering? | | |
-| Demonstrate understanding of the code they wrote? | | |
-| Demonstrate good code and process organization? | | |
-| Craft a search experience that is simple to understand? | | |
-| Account for different use cases (e.g. mobile, touch) | | |
-| Complete the assignment in an efficient manner? | | |
-| Go beyond what was asked of them? | | | |
-| Ask for clarification when necessary? | | |
-| How long did the candidate spend on the assignment (in hours)? | | |
+| Did the candidate:                                             | Yes  | No   |
+| :------------------------------------------------------------- | :--- | :--- |
+| Follow the instructions of the assignment?                     |      |      |
+| Write code that follows best-practices?                        |      |      |
+| Avoid over-engineering?                                        |      |      |
+| Demonstrate understanding of the code they wrote?              |      |      |
+| Demonstrate good code and process organization?                |      |      |
+| Craft a search experience that is simple to understand?        |      |      |
+| Account for different use cases (e.g. mobile, touch)           |      |      |
+| Complete the assignment in an efficient manner?                |      |      |
+| Go beyond what was asked of them?                              |      |      |  |
+| Ask for clarification when necessary?                          |      |      |
+| How long did the candidate spend on the assignment (in hours)? |      |      |
 
 ### “Customer” Questions
 
-| Did the candidate: | Yes | No |
-| :------------- | :------------- | :------------- |
-| Answer the questions correctly? | | |
-| Answer in a succinct manner? | | |
-| Have minimal spelling, grammar, or formatting mistakes? | | |
-| Employ a friendly, helpful tone? | | | |
+| Did the candidate:                                      | Yes  | No   |
+| :------------------------------------------------------ | :--- | :--- |
+| Answer the questions correctly?                         |      |      |
+| Answer in a succinct manner?                            |      |      |
+| Have minimal spelling, grammar, or formatting mistakes? |      |      |
+| Employ a friendly, helpful tone?                        |      |      |  |
 
 ### Overall Impressions
 
-| Does the candidate demonstrate being in the top 10% of: | Yes | No |
-| :------------- | :------------- | :------------- |
-| Technical aptitude | | |
-| UX | | |
-| Communication skills | | | |
+| Does the candidate demonstrate being in the top 10% of: | Yes  | No   |
+| :------------------------------------------------------ | :--- | :--- |
+| Technical aptitude                                      |      |      |
+| UX                                                      |      |      |
+| Communication skills                                    |      |      |  |
